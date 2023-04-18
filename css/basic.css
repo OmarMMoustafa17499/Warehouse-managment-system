@@ -1,0 +1,227 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color:#212428;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* login page */
+.main{
+    padding: 50px 0px;
+}
+.main h3{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 55px;
+}
+.main .img{
+    box-shadow:  10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    height: 50vh;
+    background-image: url('../images/22.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.main .myBtn,.addproduct .myBtn{
+    background-color: #333 !important;
+    box-shadow:  10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+
+}
+.main .spany {
+    text-align: center;
+}
+.main .spany span {
+
+    font-size: 14px;
+}
+.main span a{
+    text-decoration: none;
+    color: #F9004D;
+}
+.page {
+    /* background-color: #f1f5f9; */
+    background-color: #212428;
+    min-height: 100vh;
+  }
+  .p-relative{
+    position: relative;
+  }
+/* side bar  */
+.sidebar {
+    width: 250px;
+    background-color: #212428 !important;
+    box-shadow:  10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+
+  }
+  .sidebar > h3 {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+  }
+  .sidebar ul li a {
+    transition: 0.3s;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+  .sidebar ul li a:hover,
+  .sidebar ul li a.active {
+    background-color: #F9004D;
+  }
+  .sidebar ul li a{
+    color: #ffffff;
+  }
+  .sidebar ul li a span {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #ffffff;
+  }
+
+.content h1{
+    margin: 30px 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+  /* dashboard */
+.con-items{
+    border-radius: 10px !important;
+    background-color: rgb(50, 50, 50);
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+    box-shadow:  3px 3px 10px #1c1e22, -10px -10px 19px #303131;
+}
+
+.con-item{
+    display: flex;
+    justify-content: space-between;
+    color: #e4e5e7;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 15px 0;
+}
+.con-item-left span{
+    text-align: center;
+    font-size: 18px;
+}
+.con-item-left h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.con-item-right i {
+    padding: 5px;
+    color: #F9004D;
+}
+.con-footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(62, 61, 61);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.con-footer a{
+    color: #e4e5e7;
+    font-size: 16px;
+    text-decoration: none;
+   
+}
+.con-footer a i{
+    margin-left: 5px;
+    
+}
+
+.mytable thead td{
+     background-color: #F9004D;
+     padding: 15px;
+     text-align: center;
+}
+.mytable tbody tr td {
+    padding: 15px;
+    border: 1px solid #F9004D;
+    text-align: center;
+}
+.responsive-table{
+    padding:0 20px ;
+}
+
+
+/* user */
+
+.profile-page .avatar-box {
+    width: 300px;
+  }
+  
+.profile-page .avatar-box > img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  .profile-page .avatar-box .level {
+    height: 6px;
+    overflow: hidden;
+    margin: auto;
+    width: 70%;
+  }
+  .profile-page .avatar-box .level span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 6px;
+  }
+  .profile-page .info-box .box {
+    flex-wrap: wrap;
+    border-bottom: 1px solid #797777;
+    transition: 0.3s;
+  }
+  .profile-page .info-box .box > div {
+    min-width: 250px;
+    padding: 10px 0 0;
+  }
+  .profile-page .info-box h4 {
+    font-weight: normal;
+  }
+
+.myClr,.direction{
+    color: #F9004D;
+}
+  
+
+
+#contentToggler{
+  cursor: pointer;
+}
+
+
+
+.unHideList{
+  cursor: pointer;
+}
+
+.toggy{
+  display: none;
+}
+
